@@ -17,10 +17,9 @@ def game_core(number):
         count += 1
         if number > predict:
             left_border = predict
-            predict = (right_border+left_border) // 2
-        elif number < predict:
+        else:
             right_border = predict
-            predict = (right_border+left_border) // 2
+        predict = (right_border+left_border) // 2
     print(f"Случайное число {number} угадано с {count} попытки.")
     return(count)
 
