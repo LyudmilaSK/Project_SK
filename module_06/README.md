@@ -27,11 +27,11 @@
 * #### Построена наивная модель  
 * #### Протестирован CatBoost  
 * #### Реализованы модели:  
- #### RandomForestRegressor  
- #### ExtraTreesRegressor  
- #### AdaBoostRegressor  
- #### GradientBoostingRegressor  
- #### HistGradientBoostingRegressor   
+     #### RandomForestRegressor  
+     #### ExtraTreesRegressor  
+     #### AdaBoostRegressor  
+     #### GradientBoostingRegressor  
+     #### HistGradientBoostingRegressor   
 * #### Для трёх из пяти моделей оптимизированы гиперпараметры с помощью Optuna и SearchCV
 * #### Построенные модели оценены с помощью метрики MAPE  
 * #### Для лучших моделей выполнен стэкинг  
